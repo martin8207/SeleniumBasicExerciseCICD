@@ -26,7 +26,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Run UI Tests for  Project1
-      run: dotnet test TestProject1/TetsProject1.csproj --no-build --verbosity normal
+      run: dotnet test TestProject1/TestProject1.csproj --no-build --verbosity normal
     - name: Run UI Tests for  Project2
       run: dotnet test TestProject2/TetsProject2.csproj --no-build --verbosity normal
     - name: Run UI Tests for  Project3
